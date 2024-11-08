@@ -1,0 +1,12 @@
+DELETE http://localhost:3001/api/persons/ 29.989780304736424
+
+
+###
+
+POST http://localhost:3001/api/persons
+Content-Type:application/json
+
+{
+    "name":"Ayaj Husain",
+    "number":"8767464463"
+}
