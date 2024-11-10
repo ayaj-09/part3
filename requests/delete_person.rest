@@ -1,4 +1,4 @@
-DELETE http://localhost:3001/api/persons/ 29.989780304736424
+DELETE http://localhost:3001/api/persons/672fbdc90352629
 
 
 ###
@@ -7,6 +7,20 @@ POST http://localhost:3001/api/persons
 Content-Type:application/json
 
 {
-    "name":"Ayaj Husain",
-    "number":"8767464463"
+    "name":"ron",
+    "number":"789-"
 }
+
+###
+PUT http://localhost:3001/api/persons/67304b09bf1b496c6e58f50b
+Content-Type:application/json
+
+{
+    "name":"Namiya",
+    "number":"789-4758-789"
+}
+
+###
+
+GET http://localhost:3001/api/persons/67304b09bf1b4958f50b
+
