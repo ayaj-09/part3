@@ -1,19 +1,5 @@
 const mongoose = require('mongoose')
 
-const URI = process.env.MONGODB_URI
-
-console.log('Connecting to MONGO DB')
-
-mongoose.set('strictQuery',false)
-
-mongoose.connect(URI)
-  .then(result => {
-    console.log('Connected to MONGO DB')
-  })
-  .catch(error => {
-    console.log(error.message)
-  })
-
 const personSchema = new mongoose.Schema({
   name:{
     type:String,

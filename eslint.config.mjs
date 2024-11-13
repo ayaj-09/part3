@@ -43,6 +43,7 @@ export default [
       ],
       'no-console': 'off',
       'no-unused-vars':'off',
+      'no-undef':'off'
     },
   },
   { 
